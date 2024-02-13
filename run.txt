@@ -1,0 +1,30 @@
+In VsCode here how you can do it:
+
+- Open the command palette (Ctrl+Shift+P)
+
+- Type "Preferences: Open Settings (JSON)" and select it
+
+- Add the following line to the settings.json file:
+
+"editor.formatOnSave": true
+
+- Save the file and close it
+
+Now, every time you save a file, it will be automatically formatted.
+
+Ok how you can do this by terminal, run a C++ code by terminal ?
+
+- First, you need to install g++ compiler. You can do this by running the following command:
+
+sudo apt-get install g++
+
+- Now, you can compile your code by running the following command:
+
+g++ -o outputFileName inputFileName.cpp
+
+- Finally, you can run your code by running the following command:
+
+./outputFileName
+
+That's it! You can now run a C++ code by terminal.
+
